@@ -1,9 +1,9 @@
 {
   'variables': {
-    'project_name%': 'electron',
-    'product_name%': 'Electron',
-    'company_name%': 'GitHub, Inc',
-    'company_abbr%': 'github',
+    'project_name%': 'starmade-launcher',
+    'product_name%': 'StarMade Launcher',
+    'company_name%': 'Schine GmbH',
+    'company_abbr%': 'schine',
     'version%': '0.28.1',
 
     'atom_source_root': '<!(["python", "tools/atom_source_root.py"])',

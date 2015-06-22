@@ -66,13 +66,13 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "GitHub, Inc."
-            VALUE "FileDescription", "Electron"
+            VALUE "CompanyName", "Schine GmbH"
+            VALUE "FileDescription", "StarMade Launcher"
             VALUE "FileVersion", "0.28.1"
-            VALUE "InternalName", "electron.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2015 GitHub, Inc. All rights reserved."
-            VALUE "OriginalFilename", "electron.exe"
-            VALUE "ProductName", "Electron"
+            VALUE "InternalName", "starmade-launcher.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2015 Schine GmbH"
+            VALUE "OriginalFilename", "starmade-launcher.exe"
+            VALUE "ProductName", "StarMade Launcher"
             VALUE "ProductVersion", "0.28.1"
             VALUE "SquirrelAwareVersion", "1"
         END
@@ -105,4 +105,3 @@ END
 
 IDR_MAINFRAME           ICON                    "atom.ico"
 /////////////////////////////////////////////////////////////////////////////
-
