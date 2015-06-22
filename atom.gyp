@@ -4,7 +4,7 @@
     'product_name%': 'StarMade Launcher',
     'company_name%': 'Schine GmbH',
     'company_abbr%': 'schine',
-    'version%': '0.28.1',
+    'version%': '0.28.2',
 
     'atom_source_root': '<!(["python", "tools/atom_source_root.py"])',
   },

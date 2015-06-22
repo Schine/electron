@@ -50,8 +50,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,28,1,0
- PRODUCTVERSION 0,28,1,0
+ FILEVERSION 0,28,2,0
+ PRODUCTVERSION 0,28,2,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -68,12 +68,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Schine GmbH"
             VALUE "FileDescription", "StarMade Launcher"
-            VALUE "FileVersion", "0.28.1"
+            VALUE "FileVersion", "0.28.2"
             VALUE "InternalName", "starmade-launcher.exe"
             VALUE "LegalCopyright", "Copyright (C) 2015 Schine GmbH"
             VALUE "OriginalFilename", "starmade-launcher.exe"
             VALUE "ProductName", "StarMade Launcher"
-            VALUE "ProductVersion", "0.28.1"
+            VALUE "ProductVersion", "0.28.2"
             VALUE "SquirrelAwareVersion", "1"
         END
     END

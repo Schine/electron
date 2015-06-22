@@ -250,6 +250,16 @@ Starts inspecting element at position (`x`, `y`) of guest page.
 
 Opens the devtools for the service worker context present in the guest page.
 
+### `<webview>`.setAudioMuted(muted)
+
++ `muted` Boolean
+
+Set guest page muted.
+
+### `<webview>`.isAudioMuted()
+
+Returns whether guest page has been muted.
+
 ### `<webview>`.undo()
 
 Executes editing command `undo` in page.
@@ -297,6 +307,14 @@ Executes editing command `replace` in page.
 * `text` String
 
 Executes editing command `replaceMisspelling` in page.
+
+### `<webview>.print([options])`
+
+Prints webview's web page. Same with `webContents.print([options])`.
+
+### `<webview>.printToPDF(options, callback)`
+
+Prints webview's web page as PDF, Same with `webContents.printToPDF(options, callback)`
 
 ### `<webview>`.send(channel[, args...])
 

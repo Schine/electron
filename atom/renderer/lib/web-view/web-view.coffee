@@ -275,6 +275,8 @@ registerWebViewElement = ->
     "closeDevTools"
     "isDevToolsOpened"
     "inspectElement"
+    "setAudioMuted"
+    "isAudioMuted"
     "undo"
     "redo"
     "cut"
@@ -289,6 +291,8 @@ registerWebViewElement = ->
     "send"
     "getId"
     "inspectServiceWorker"
+    "print"
+    "printToPDF"
   ]
 
   # Forward proto.foo* method calls to WebViewImpl.foo*.
